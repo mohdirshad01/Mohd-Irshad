@@ -5,8 +5,8 @@ const axios = require('axios');
 const { enter, leave } = Stage
 const stage = new Stage()
 const rateLimit = require('telegraf-ratelimit');
-var bot_token = '5153893400:AAFNv5Bka_N9VpeUnocV_It6JOO_tnXCKzg'; //YOUR BOT TOKEN HERE
-var bot_name = 'Cashloot2211bot'; // Bot Name
+var bot_token = '5219774462:AAGG4ea4R_7qA9WW8TUeuN0Bz9q8CTD4N-k'; //YOUR BOT TOKEN HERE
+var bot_name = 'Demo_Ummy_2Bot'; // Bot Name
 const bot = new Telegraf(bot_token);
 let db;
 const wallet = new BaseScene('wallet')
